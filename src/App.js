@@ -6,6 +6,7 @@ import Userdata from './component/Userdata';
 
 function App() {
   const user = useSelector((state)=>state.auth.user)
+  console.log('hello world')
   return (
     <div >
       {user? <Userdata/>:<Loginform/>}
