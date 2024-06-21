@@ -1,0 +1,17 @@
+{
+
+        "signinButton":"Sign In",
+    "signin":{
+        "title":"Sign in",
+        "username":"Username",
+        "password":"Password",
+        "signinButton":"Sign In"
+    },
+    "user":{
+        "field":"Field",
+        "value":"Value",
+        "logoutButton":"Logout"
+    },
+    "loading":"Signing  IN...",
+    "error":"error"
+}

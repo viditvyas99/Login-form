@@ -1,0 +1,15 @@
+{
+    "signin":{
+        "title":" Iniciar Sesion",
+        "username":"Nombre de usuario",
+        "password":"Contrasena",
+        "signinButton":" Iniciar Sesion"
+    },
+    "user":{
+        "field":"campo",
+        "value":"valor",
+        "logoutButton":"cerrar sesion"
+    },
+    "loading":" Iniciando Sesion  ...",
+    "error":"error"
+}

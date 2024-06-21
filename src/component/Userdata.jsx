@@ -2,10 +2,12 @@ import { Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, 
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { logout } from '../features/auth/authSilce'
+import { useTranslation } from 'react-i18next'
 
 const Userdata = () => {
     const dispatch =useDispatch()
     const user = useSelector((state)=>state.auth.user)
+    const {t}=useTranslation()
     if (!user){
         return null
     }
@@ -18,10 +20,10 @@ const Userdata = () => {
             <TableHead>
                 <TableRow>
                     <TableCell>
-                        field
+                        {t('user.field')}
                     </TableCell>
                     <TableCell>
-                        value
+                    {t('user.value')}
                     </TableCell>
                 </TableRow>
             </TableHead>
@@ -70,7 +72,9 @@ const Userdata = () => {
             </TableBody>
         </Table>
         <Button onClick={hanlelogout} variant='contained' color='secondary'sx={{mt:2}}>
-            lagout
+            {
+                t('user.logoutButton')
+            }
         </Button>
     </TableContainer>
       
