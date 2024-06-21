@@ -46,7 +46,7 @@ export default function Loginform() {
                 margin='normal'
                 required
                 id='password'
-                label={t('signinButton')}
+                label={t('signin.password')}
                 autoComplete='currebt-password'
                 autoFocus
                 value={password}

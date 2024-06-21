@@ -5,7 +5,14 @@ import { useTranslation } from 'react-i18next'
 
 const LanguageSwitcher = () => {
     const {i18n} =useTranslation()
-    const handleChaneg = (lng) => i18n.changeLanguage(lng)
+    const handleChaneg = (lng) => {
+      console.log(lng)
+
+      i18n.changeLanguage(lng)
+    }
+      
+      
+  
     
   return (
     <ButtonGroup variant='contained'color='primary'>
