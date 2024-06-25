@@ -1,6 +1,5 @@
 {
-
-        "signinButton":"Sign In",
+    "signinButton":"Sign In",
     "signin":{
         "title":"Sign in",
         "username":"Username",

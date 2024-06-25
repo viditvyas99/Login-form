@@ -18,7 +18,6 @@ export default function Loginform() {
         dispatch(login({
             username,password
         }))
-        console.log()
     }
 
   return (
@@ -55,7 +54,7 @@ export default function Loginform() {
                <Button type='submit' variant='contained' fullWidth sx={{
                 mt:3 ,mb:2
                }}
-               disabled={loading}>{loading?t('loading'):t('signin.signinButton')}</Button>
+               disabled={loading}>{loading?t('loading'):t('signinButton')}</Button>
             </Box>
         </Box>
     </Container>
